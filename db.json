@@ -1,0 +1,254 @@
+{
+    "movies": [
+        {
+            "id": 1,
+            "title": "Revanche",
+            "image": "https://static.tvtropes.org/pmwiki/pub/images/revanche_2.jpg",
+            "rating": 96,
+            "director": "Götz Spielmann",
+            "actors": [
+                "Ulrich Tukur",
+                "Johannes Krisch",
+                "Johannes Allmayer"
+            ],
+            "description":"Ex-con Alex plans to flee to the South with his girl after a robbery. But something terrible happens and revenge seems inevitable.",
+            "genre": "Crime",
+            "comment": ""
+
+        },
+        {
+            "id": 2,
+            "title": "Incendies",
+            "image": "https://m.media-amazon.com/images/M/MV5BMWE3MGYzZjktY2Q5Mi00Y2NiLWIyYWUtMmIyNzA3YmZlMGFhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg",
+            "rating": 91,
+            "director": "Denis Villeneuve",
+            "actors": [
+                "Lubna Azabal",
+                "Mélissa Désormeaux-Poulin",
+                "Maxim Gaudette"
+            ],
+            "description":"Twins journey to the Middle East to discover their family history and fulfill their mother's last wishes.",
+            "genre": "Drama",
+            "comment": ""
+
+        },
+
+        {
+            "id": 3,
+            "title": "OldBoy",
+            "image": "https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_.jpg",
+            "rating": 90,
+            "director": "Chan-wook Park",
+            "actors": [
+                "Min-sik Choi",
+                "Ji-tae Yu",
+                "Hye-jeong Kang"
+            ],
+            "description":"After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.",
+            "genre": "Action",
+            "comment": "You are flourishing, sweetie. Iconic. Honestly, truly."
+
+        },
+
+        {
+            "id": 4,
+            "title": "The Hunt",
+            "image": "https://m.media-amazon.com/images/M/MV5BMTg2NDg3ODg4NF5BMl5BanBnXkFtZTcwNzk3NTc3Nw@@._V1_.jpg",
+            "rating": 91,
+            "director": "Thomas Vinterberg",
+            "actors": [
+                "Mads Mikkelsen",
+                "Thomas Bo Larsen",
+                "Annika Wedderkopp"
+            ],
+            "description":"A teacher lives a lonely life, all the while struggling over his son's custody. His life slowly gets better as he finds love and receives good news from his son, but his new luck is about to be brutally shattered by an innocent little lie.",
+            "genre": "Drama",
+            "comment": ""
+        },
+
+        {
+            "id": 5,
+            "title": "Blue Ruin",
+            "image": "https://2.bp.blogspot.com/-vg23UnQAEjI/VxGNAqVZGHI/AAAAAAAAS24/cBmS6Qf9JhQChKjkntY6ArsW1BoImcH7gCLcB/s1600/blue-ruin-movie-poster.jpg",
+            "rating": 96,
+            "director": "Jeremy Saulnier",
+            "actors": [
+                "Macon Blair",
+                "Eva Green",
+                "Kevin Kolack"
+            ],
+            "description":"A mysterious outsider's quiet life is turned upside down when he returns to his childhood home to carry out an act of vengeance. But his victims are not who they seem.",
+            "genre": "Action",
+            "comment": ""
+        },
+
+        {
+            "id": 6,
+            "title": "La Haine",
+            "image": "https://s3.amazonaws.com/criterion-production/films/726755430bd298a5aa424f68a792bcea/aQ0KQhoip19olkpwhmNbrAfMY6qhAB_large.jpg",
+            "rating": 100,
+            "director": "Mathieu Kassovitz",
+            "actors": [
+                "Vincent Cassel",
+                "Hubert Koundé",
+                "Saïd Taghmaoui"
+            ],
+            "description": "24 hours in the lives of three young men in the French suburbs the day after a violent riot.",
+            "genre": "Crime",
+            "comment": ""
+
+        },
+
+        {
+            "id": 7,
+            "title": "A Girl Walks Home Alone at Night",
+            "image": "https://pics.filmaffinity.com/A_Girl_Walks_Home_Alone_at_Night-148781706-large.jpg",
+            "rating": 96,
+            "director": "Ana Lily Amirpour",
+            "actors": [
+                "Arash Marandi",
+                "Sheila Vand",
+                "Dominique McElligott"
+            ],
+            "description": "In Bad City, a place that reeks of death and loneliness, the townspeople are unaware they are being stalked by a lonesome vampire.",
+            "genre": "Horror",
+            "comment": ""
+
+
+        },
+
+        {
+            "id": 8,
+            "title": "The Handmaiden",
+            "image": "https://alternativemovieposters.com/wp-content/uploads/2022/02/John-Conlon_The-Handmaiden.jpg",
+            "rating": 96,
+            "director": "Chan-wook Park",
+            "actors": [
+                "Min-hee Kim",
+                "Tae-ri Kim",
+                "Jung-woo Ha"
+            ],
+            "description": "A woman is hired as a handmaiden to a Japanese heiress, but secretly she is involved in a plot to defraud her.",
+            "genre": "Thriller",
+            "comment": ""
+        },
+
+        {
+            "id": 9,
+            "title": "Dead Man",
+            "image": "https://m.media-amazon.com/images/M/MV5BMmZjMTk1YTctY2E4Yi00N2I2LTljMWMtN2EwMjcyNjdkZmYwXkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_.jpg",
+            "rating": 70,
+            "director": "Jim Jarmusch",
+            "actors":[
+                "Johnny Depp",
+                "Gary Farmer",
+                "Crispin Glover"
+            ],
+            "description": "On the run after murdering a man, accountant William Blake encounters a strange aboriginal American man named Nobody who prepares him for his journey into the spiritual world.",
+            "genre": "Western",
+            "comment": ""
+
+        },
+
+        {
+            "id": 10,
+            "title": "The Triplets of Belleville",
+            "image": "https://media-cache.cinematerial.com/p/500x/0ycumonv/les-triplettes-de-belleville-french-movie-poster.jpg?v=1456322183",
+            "rating": 91,
+            "director": "Sylvain Chomet",
+            "actors":[
+                "Michèle Caucheteux",
+                "Jean-Claude Donda",
+                "Michel Robin"
+            ],
+            "description": "When her grandson is kidnapped during the Tour de France, Madame Souza and her beloved pooch Bruno team up with the Belleville Sisters--an aged song-and-dance team from the days of Fred Astaire--to rescue him.",
+            "genre": "Animation",
+            "comment":""
+
+        },
+
+        {
+            "id": 11,
+            "title": "Deep Cover",
+            "image": "https://s3.amazonaws.com/criterion-production/films/3c4f5a0ac1b9c8f3f1f7de1df2a74074/m6hWFaY09UOUAZ2IxggOEUztBIZHt2_large.jpg",
+            "rating": 100,
+            "director": "Bill Duke",
+            "actors":[
+                "Laurence Fishburne",
+                "Jeff Goldblum",
+                "Lira Angel"
+            ],
+            "description": "A uniformed cop is recruited by a drug enforcement agent to infiltrate a drug smuggling ring looking to expand its operation.",
+            "genre": "Crime",
+            "comment": "You have good taste and deserve acknowledgment of that."
+        },
+
+        {
+            "id": 12,
+            "title": "The Big Lebowski",
+            "image": "https://m.media-amazon.com/images/M/MV5BNDQwMTAzOTkxNV5BMl5BanBnXkFtZTgwMjc0MTAwMjE@._V1_.jpg",
+            "rating": 96,
+            "director": "Joel Coen",
+            "actors":[
+                "Jeff Bridges",
+
+                "John Goodman",
+
+                "Julianne Moore"
+            ],
+            "description": "Jeff 'The Dude' Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it.",
+            "genre": "Comedy",
+            "comment": "Kind of an overrated movie. Just like your taste in films."
+        },
+
+        {
+            "id": 13,
+            "title": "8 1/2",
+            "image": "https://s3.amazonaws.com/criterion-production/films/2ae55be0d1938dcd30082006b5108053/EBSPG1J9ip2HjvJtUmzlDGLM9EtTFX_large.jpg",
+            "rating": 100,
+            "director": "Federico Fellini",
+            "actors":[
+                "Marcello Mastroianni",
+                "Anouk Aimée",
+                "Claudia Cardinale"
+            ],
+            "description": "A harried movie director retreats into his memories and fantasies.",
+            "genre": "Drama",
+            "comment": "I get it. It's an important film. But it's also boring. And so are you."
+        },
+
+        {
+            "id": 14,
+            "title": "The Tenant",
+            "image": "https://lasttimeisawdotcom.files.wordpress.com/2021/04/the-tenant-poster.jpg?w=841",
+            "rating": 83,
+            "director": "Roman Polanski",
+            "actors":[
+                "Roman Polanski",
+                "Isabelle Adjani",
+                "Melvyn Douglas"
+            ],
+            "description": "A bureaucrat rents a Paris apartment where he finds himself drawn into a rabbit hole of dangerous paranoia.",
+            "genre": "Horror",
+            "comment": ""
+        },
+
+        {
+            "id": 15,
+            "title": "Crimes of the Future",
+            "image": "https://upload.wikimedia.org/wikipedia/en/d/d4/Crimes_of_the_Future_%282022_film%29.jpg",
+            "rating": 67,
+            "director": "David Cronenberg",
+            "actors":[
+                "Viggo Mortisen",
+                "Kristen Stewart",
+                "Léa Seydoux"
+            ],
+            "description": "Humans adapt to a synthetic environment, with new transformations and mutations. With his partner Caprice, Saul Tenser, celebrity performance artist, publicly showcases the metamorphosis of his organs in avant-garde performances.",
+            "genre": "Thriller",
+            "comment": ""
+        }
+
+
+    ]
+}

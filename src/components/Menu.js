@@ -4,7 +4,12 @@ function Menu() {
   return (
     <div className='menu'>
          
-        <p>Now Playing</p>
+        <span className='menu-option'>Titles</span>
+        <span className='menu-option'>Genres</span>
+        <span className='menu-option'>Directors</span>
+        <span className='menu-option'>Actors</span>
+        <span className='menu-option'>Rating</span>
+
 
     </div>
   )

@@ -2,20 +2,32 @@
 import './App.css';
 import Menu from './components/Menu';
 import MovieContainer from './components/MovieContainer'; 
-import MovieCard from './components/MovieCard';
 import Search from './components/Search';
+import { useState } from 'react'
+import MovieComments from './components/MovieComments';
+
 
 function App() {
+
+ 
+  const [search, setSearch] = useState('')
+
+
+
   return (
     <div className="App">
+
       <header className="App-header">
-      <h1 contenteditable spellcheck="false">Move(E)</h1>
-      <Search />
+
+      <h1  spellCheck="false">Move(E)</h1>
+
       </header>
-      <Menu />
      
-      <MovieContainer />
-      <MovieCard />
+      <Menu />
+
+      <Search search={search} setSearch={setSearch}/>
+     
+      <MovieContainer search={search} setSearch={setSearch}/>
     </div>
   );
 }

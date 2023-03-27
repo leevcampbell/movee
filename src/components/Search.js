@@ -1,16 +1,18 @@
 import React from 'react'
 
-function Search() {
+
+function Search({search, setSearch}) {
+
+    function handleChange(e) {
+    setSearch(e.target.value)
+    console.log(search)
+  }
 
 
 
   return (
     <div className='search'>
-    {/* <form>
-	    <label for="search">Search</label>
-	    <input id="search" type="search" pattern=".*\S.*" required/>
-	    <span class="caret"></span>
-    </form> */}
+      <input type="text" placeholder="Search" onChange={handleChange} value = {search} />
        
 
     </div>
