@@ -4,18 +4,9 @@
 
 .App {
   text-align: center;
+  width: 100vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #000000;
@@ -31,14 +22,7 @@
 }
 
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 
 
 
@@ -58,6 +42,15 @@
   color: white;
 }
 
+.menu-grid {
+	display: grid;
+  	grid-template-columns: 220px 1fr;
+  
+  	grid-gap: 1em;
+  
+}
+
+
 .movie-card-container{
 	display: grid;
 	grid-template-columns:repeat(3, 1fr) ;
@@ -66,11 +59,23 @@
 }
 
 
+
+
 .movie-images {
 	float: left;
 	width: 35em;
 	border-radius: 2em;
 	height: 50em;
+	object-fit: cover;
+	margin: 10px;
+	border-style: var(--neon-border-color);
+	
+}
+
+#images-comment-page {
+	float: left;
+	border-radius: 8px;
+	height: 15em;
 	object-fit: cover;
 	margin: 10px;
 	border-style: var(--neon-border-color);
@@ -88,18 +93,67 @@ p {
 	font-family: Arial, Helvetica, sans-serif;
 }
 
+.regtext{
+	color: #fff;
+	font-size: 15px;
+	font-style: oblique;
+	font-family: Arial, Helvetica, sans-serif;
+	word-spacing: normal;
+}
+
 .menu {
 	background-color: #000000;
 	min-height: 150px;
 	display: flex;
-	/* flex-direction: ; */
-	
 	align-items: center;
 	justify-content: center;
 	font-size: calc(10px + 2vmin);
 	color: white;
 	
 }
+
+.scrollbox {
+	overflow: scroll;
+	height: 300px;
+	width: 250px;
+	border: solid rgb(135, 184, 236);
+
+}
+
+
+.menu {
+	color: #fff;
+	text-shadow:
+	  0 0 5px #fff,
+	  0 0 10px #fff,
+	  0 0 20px #fff,
+	  0 0 40px #0ff,
+	  0 0 80px #0ff,
+	  0 0 90px #0ff,
+	  0 0 100px #0ff,
+	  0 0 150px #0ff;
+	font-size: 4em;
+	flex-direction: column;
+	
+  }
+
+.menu-option {
+	word-spacing: 1em;
+}  
+
+/* #comment-page-grid {
+	display: grid;
+	
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 1em;
+  
+} */
+
+
+
+
+
+
 
 
 /* neon lights CSS */
@@ -200,24 +254,6 @@ h1:focus {
 
 
 
-.menu {
-	color: #fff;
-	text-shadow:
-	  0 0 5px #fff,
-	  0 0 10px #fff,
-	  0 0 20px #fff,
-	  0 0 40px #0ff,
-	  0 0 80px #0ff,
-	  0 0 90px #0ff,
-	  0 0 100px #0ff,
-	  0 0 150px #0ff;
-	font-size: 5em;
-	
-  }
-
-.menu-option {
-	word-spacing: 5em;
-}  
 
 
 

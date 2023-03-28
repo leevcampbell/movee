@@ -4,7 +4,9 @@ import Menu from './components/Menu';
 import MovieContainer from './components/MovieContainer'; 
 import Search from './components/Search';
 import { useState } from 'react'
-import MovieComments from './components/MovieComments';
+
+
+
 
 
 function App() {
@@ -22,12 +24,18 @@ function App() {
       <h1  spellCheck="false">Move(E)</h1>
 
       </header>
+     <div className="menu-grid">
+        <div>
+          <Menu />
+        </div>
+        <div>
+          <Search search={search} setSearch={setSearch}/>
      
-      <Menu />
-
-      <Search search={search} setSearch={setSearch}/>
-     
-      <MovieContainer search={search} setSearch={setSearch}/>
+          <MovieContainer search={search} setSearch={setSearch}/>
+          
+          
+        </div>
+    </div> 
     </div>
   );
 }

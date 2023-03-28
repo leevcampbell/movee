@@ -18,9 +18,10 @@ const displayMovie = movieComments.map(movie => {
 })
 
   return (
-    <div className='mid-header'>Movie Comments
-
-        {displayMovie}
+    <div>
+        <div className='menu-option'>
+            {displayMovie}
+        </div>
     
     
     </div>

@@ -28,7 +28,7 @@ function MovieCard({movie}) {
           <p>Rating: {movie.rating}</p>
           <p>{movie.description}</p>
           <p>{movie.comment}</p>
-          <textarea placeholder='comment here'></textarea>
+          
         </div>
       :
         <img onClick={handleClick} className= "movie-images" src={movie.image} alt={movie.title} />

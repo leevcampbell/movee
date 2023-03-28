@@ -17,9 +17,23 @@ function MovieContainer({search, setSearch}) {
   }, [])
 
   const filteredMovies = movies.filter(movie => { 
-     return movie.title.toLowerCase().includes(search.toLowerCase())
-   })
+    if (movie.title.toLowerCase().includes(search.toLowerCase())){
+      return true 
+    } if (movie.director.toLowerCase().includes(search.toLowerCase())) {
+      return true
+    } if (movie.genre.toLowerCase().includes(search.toLowerCase())) {
+      return true
+    } if (movie.rating.toString().toLowerCase().includes(search.toLowerCase())){
+      return true
+    } else {
+      return false
+    }
+   }
+  )
    console.log(filteredMovies)
+
+
+  
 
     const renderedMovies = filteredMovies.map(movie => {
       return <MovieCard key={movie.id} movie={movie} />}) 
@@ -30,7 +44,7 @@ function MovieContainer({search, setSearch}) {
 
   return (
     <div className='movie-container'>
-        <h3 className='mid-header'>Movies</h3>
+        <h3 className='menu'>Movies</h3>
 
         <div className='movie-card-container'>
           {renderedMovies}

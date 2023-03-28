@@ -8,6 +8,7 @@ import {Routes, Route} from 'react-router-dom'
 import MovieComments from './components/MovieComments';
 
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter >
@@ -15,6 +16,7 @@ root.render(
 
     <Route path="/" element={ <App />} />
     <Route path='/comments' element={ <MovieComments />} />
+   
   
   </Routes>
   </BrowserRouter >
